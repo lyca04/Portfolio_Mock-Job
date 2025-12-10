@@ -1947,7 +1947,14 @@ section {
     font-size: 1rem;
 }
 
-.document-card .btn {
+.document-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.document-buttons .btn {
+    flex: 1;
     display: inline-block;
 }
 
