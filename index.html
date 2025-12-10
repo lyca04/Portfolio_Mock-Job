@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antoque Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="unique-logo">
+                    <div class="logo-icon">
+                        <span class="logo-l">L</span>
+                        <span class="logo-a">A</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Hello, I'm</span>
+                        <span class="title-name">Lyca Marie O. Antoque</span>
+                        <span class="title-role">BSIT Student</span>
+                    </h1>
+                    <p class="hero-description">
+                        I'm a 4th year student pursuing BSIT at UM Digos College in Roxas Extension, Digos City, Davao del Sur. Gaining comprehensive knowledge in information technology, software development, and modern computing systems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="hero-photo-container">
+                            <img src="lyca.JPG" alt="Lyca Antoque" class="hero-photo">
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element element-1"></div>
+                            <div class="floating-element element-2"></div>
+                            <div class="floating-element element-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                
+            </div>
+            
+            <!-- Hero About Card -->
+            <div class="about-hero">
+                <div class="about-intro">
+                    <div class="intro-content">
+                        <h3>Hello, I'm <span class="highlight">Lyca</span></h3>
+                        <p class="intro-text">
+                            A passionate <strong>BSIT Student</strong> currently pursuing my Bachelor's degree 
+                            in Information Technology. This portfolio showcases certificates and projects
+                            created during my academic journey. 
+                            I'm eager to apply my knowledge in web development, design, and technology 
+                            to create meaningful digital solutions.
+                        </p>
+                        <div class="intro-tags">
+                            <span class="tag">BSIT Student</span>
+                            <span class="tag">Web Developer</span>
+                            <span class="tag">Tech Enthusiast</span>
+                        </div>
+                    </div>
+                    <div class="intro-image">
+                        <div class="image-container">
+                            <div class="profile-avatar">
+                                <img src="uniform.jpg" alt="Lyca Antoque" class="profile-photo">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Section -->
+            <div class="about-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Cups of Coffee</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Journey Timeline Section -->
+            <div class="journey-section">
+                <h3 class="journey-title">My Journey</h3>
+                <div class="timeline-container">
+                    <!-- Timeline Item 1 - Current Education -->
+                    <div class="timeline-item current">
+                        <div class="timeline-marker">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h4>Bachelor of Science in Information Technology</h4>
+                                <span class="timeline-year">2021 - Present</span>
+                            </div>
+                            <p class="timeline-company">UM Digos College</p>
+                            <p class="timeline-description">Currently a 4th year student pursuing BSIT at UM Digos College in Roxas Extension, Digos City, Davao del Sur. Gaining comprehensive knowledge in information technology, software development, and modern computing systems.</p>
+                            <div class="timeline-badge current">Current</div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 - Waitress Experience -->
+                    <div class="timeline-item experience">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h4>Waitress</h4>
+                                <span class="timeline-year">Nov. 2017 - Dec. 2019</span>
+                            </div>
+                            <p class="timeline-company">HETOAN Carenderya</p>
+                            <p class="timeline-description">Managed customer orders and food service at a small carenderya. Handled cashier duties when the owner was unavailable. Assisted with food preparation including cleaning catfish and cooking. Developed strong customer service and multitasking skills.</p>
+                            <div class="timeline-badge experience">Experience</div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 - Student Assistant -->
+                    <div class="timeline-item experience">
+                        <div class="timeline-marker">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h4>Student Assistant</h4>
+                                <span class="timeline-year">October 2017</span>
+                            </div>
+                            <p class="timeline-company">Global Systems Institute of Technology (GSIT)</p>
+                            <p class="timeline-description">Provided academic support to fellow students who had difficulties completing their activities. Offered guidance and answered questions to help students succeed in their studies. Developed strong communication and mentoring skills.</p>
+                            <div class="timeline-badge experience">Experience</div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 4 - Housemaid Experience -->
+                    <div class="timeline-item experience">
+                        <div class="timeline-marker">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h4>Housemaid</h4>
+                                <span class="timeline-year">Mar. 2015 - Jan. 2016</span>
+                            </div>
+                            <p class="timeline-company">Marilao, Bulacan</p>
+                            <p class="timeline-description">Managed household responsibilities including cleaning, laundry, and cooking. Provided tutoring services for their son's education. Assisted with operations at their mini store. Demonstrated reliability, responsibility, and adaptability in various tasks.</p>
+                            <div class="timeline-badge experience">Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Philosophy Section -->
+            <div class="philosophy-section">
+                <div class="philosophy-content">
+                    <h3>My Philosophy</h3>
+                    <div class="philosophy-grid">
+                        <div class="philosophy-item">
+                            <div class="philosophy-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <h4>Innovation</h4>
+                            <p>Always exploring new technologies and approaches to solve problems creatively.</p>
+                        </div>
+                        <div class="philosophy-item">
+                            <div class="philosophy-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Collaboration</h4>
+                            <p>Believing that the best solutions come from working together and sharing knowledge.</p>
+                        </div>
+                        <div class="philosophy-item">
+                            <div class="philosophy-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h4>Growth</h4>
+                            <p>Continuously learning and improving to stay at the forefront of technology.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">What I work with</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-vue"></i>
+                            <span>Vue.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-adobe"></i>
+                            <span>Adobe CC</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificates & Achievements</h2>
+            </div>
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Google.JPG" alt="Google Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Google Career Certificate</h3>
+                        <p class="certificate-issuer">Google</p>
+                        <p class="certificate-date">Completed: 2022</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Digital Marketing</span>
+                            <span class="skill-tag">Analytics</span>
+                            <span class="skill-tag">E-commerce</span>
+                            <span class="skill-tag">Data Analysis</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Microsoft.JPG" alt="Microsoft Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-award"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Microsoft Office Specialist</h3>
+                        <p class="certificate-issuer">Microsoft</p>
+                        <p class="certificate-date">Completed: 2022</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Word</span>
+                            <span class="skill-tag">PowerPoint</span>
+                            <span class="skill-tag">Office 365</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Introduction to CSS.png" alt="CSS Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Introduction to CSS</h3>
+                        <p class="certificate-issuer">Online Learning Platform</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">Styling</span>
+                            <span class="skill-tag">Layout</span>
+                            <span class="skill-tag">Responsive Design</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/CCE102 Certificate.png" alt="CCE102 Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>CCE102 Certificate</h3>
+                        <p class="certificate-issuer">Educational Institution</p>
+                        <p class="certificate-date">Completed: 2022</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Programming</span>
+                            <span class="skill-tag">Computer Science</span>
+                            <span class="skill-tag">Software Development</span>
+                            <span class="skill-tag">Problem Solving</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/NC 2.png" alt="NC 2 Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Computer Systems Servicing NC II</h3>
+                        <p class="certificate-issuer">TESDA</p>
+                        <p class="certificate-date">Completed: 2020</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Computer Hardware</span>
+                            <span class="skill-tag">System Maintenance</span>
+                            <span class="skill-tag">Troubleshooting</span>
+                            <span class="skill-tag">Networking</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Design Presentation.JPG" alt="Design Presentation Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Design Presentation</h3>
+                        <p class="certificate-issuer">Educational Institution</p>
+                        <p class="certificate-date">Completed: 2022</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Design</span>
+                            <span class="skill-tag">Presentation</span>
+                            <span class="skill-tag">Visual Communication</span>
+                            <span class="skill-tag">Creativity</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Certificate Cards -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Cyber Security.png" alt="Cyber Security Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Cyber Security Fundamentals</h3>
+                        <p class="certificate-issuer">Security Training Institute</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Security</span>
+                            <span class="skill-tag">Threat Analysis</span>
+                            <span class="skill-tag">Risk Management</span>
+                            <span class="skill-tag">Protection</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Networking.png" alt="Networking Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Computer Networking</h3>
+                        <p class="certificate-issuer">Network Academy</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Networking</span>
+                            <span class="skill-tag">TCP/IP</span>
+                            <span class="skill-tag">Routing</span>
+                            <span class="skill-tag">Switching</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Installing and Configuring Computer System.png" alt="Computer System Installation Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Installing and Configuring Computer Systems</h3>
+                        <p class="certificate-issuer">Technical Institute</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">System Installation</span>
+                            <span class="skill-tag">Configuration</span>
+                            <span class="skill-tag">Hardware Setup</span>
+                            <span class="skill-tag">Software Installation</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Maintaining Computer System and Network.png" alt="Computer System Maintenance Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Maintaining Computer Systems and Networks</h3>
+                        <p class="certificate-issuer">Technical Institute</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">System Maintenance</span>
+                            <span class="skill-tag">Network Management</span>
+                            <span class="skill-tag">Troubleshooting</span>
+                            <span class="skill-tag">Preventive Care</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Setting Up Computer Networks.png" alt="Computer Network Setup Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-wifi"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Setting Up Computer Networks</h3>
+                        <p class="certificate-issuer">Network Academy</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Network Setup</span>
+                            <span class="skill-tag">Cabling</span>
+                            <span class="skill-tag">Protocols</span>
+                            <span class="skill-tag">Infrastructure</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="certificates/Setting Up Computer Server.png" alt="Computer Server Setup Certificate" class="certificate-photo">
+                        <div class="certificate-overlay">
+                            <div class="certificate-actions">
+                                <button class="certificate-btn view-btn">
+                                    <i class="fas fa-eye"></i>
+                                    View
+                                </button>
+                                <button class="certificate-btn download-btn">
+                                    <i class="fas fa-download"></i>
+                                    Download
+                                </button>
+                            </div>
+                        </div>
+                        <div class="certificate-badge">
+                            <i class="fas fa-server"></i>
+                        </div>
+                    </div>
+                    <div class="certificate-content">
+                        <h3>Setting Up Computer Servers</h3>
+                        <p class="certificate-issuer">Server Academy</p>
+                        <p class="certificate-date">Completed: 2025</p>
+                        <div class="certificate-skills">
+                            <span class="skill-tag">Server Setup</span>
+                            <span class="skill-tag">System Administration</span>
+                            <span class="skill-tag">Server Management</span>
+                            <span class="skill-tag">Infrastructure</span>
+                        </div>
+                        <div class="certificate-status">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="OrgConnect/Org Logo.png" alt="OrgConnect Project" class="project-cover" data-gallery="orgconnect" data-index="-1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="OrgConnect/admin_login.png" alt="Admin Login" class="gallery-thumb" data-gallery="orgconnect" data-index="0">
+                            <img src="OrgConnect/Calendar.png" alt="Calendar Feature" class="gallery-thumb" data-gallery="orgconnect" data-index="1">
+                            <img src="OrgConnect/Finance Details.png" alt="Finance Details" class="gallery-thumb" data-gallery="orgconnect" data-index="2">
+                            <img src="OrgConnect/Event Approval(OSA).png" alt="Event Approval" class="gallery-thumb" data-gallery="orgconnect" data-index="3">
+                            <img src="OrgConnect/2558f946-6a7d-4f64-a3f4-2174dd8960ae.jpg" alt="OrgConnect Screenshot 1" class="gallery-thumb" data-gallery="orgconnect" data-index="4">
+                            <img src="OrgConnect/2ade2346-e87a-44d7-a5b8-200792f051d0.jpg" alt="OrgConnect Screenshot 2" class="gallery-thumb" data-gallery="orgconnect" data-index="5">
+                            <img src="OrgConnect/462574664_1042241264338935_7245706792060371913_n.png" alt="OrgConnect Screenshot 3" class="gallery-thumb" data-gallery="orgconnect" data-index="6">
+                            <img src="OrgConnect/9ee9c237-7691-46dd-9388-89f111e794f4.jpg" alt="OrgConnect Screenshot 4" class="gallery-thumb" data-gallery="orgconnect" data-index="7">
+                            <img src="OrgConnect/ad2ddbef-2f20-4d0b-9faf-7df43e19785e.jpg" alt="OrgConnect Screenshot 5" class="gallery-thumb" data-gallery="orgconnect" data-index="8">
+                            <img src="OrgConnect/cda10b12-2502-405e-9d71-ff0d5f2ed3b7.jpg" alt="OrgConnect Screenshot 6" class="gallery-thumb" data-gallery="orgconnect" data-index="9">
+                            
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>OrgConnect</h3>
+                        <p>A comprehensive organization management system designed to streamline organizational activities, event management, and administrative processes. Features include user authentication, calendar integration, financial tracking, and event approval workflows.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Web Development</span>
+                            <span class="tech-tag">Database Management</span>
+                            <span class="tech-tag">User Interface</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="Devotion Camacop/Devotion logo.png" alt="Devotion Camacop Project" class="project-cover" data-gallery="devotion" data-index="-1">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-gallery">
+                            <img src="Devotion Camacop/photo1716524214 (4).jpeg" alt="Devotion Activity 4" class="gallery-thumb" data-gallery="devotion" data-index="3">
+                            <img src="Devotion Camacop/photo1716524214.jpeg" alt="Devotion Activity 1" class="gallery-thumb" data-gallery="devotion" data-index="0">
+                            <img src="Devotion Camacop/photo1716524214 (1).jpeg" alt="Devotion Activity 2" class="gallery-thumb" data-gallery="devotion" data-index="1">
+                            <img src="Devotion Camacop/photo1716524214 (3).jpeg" alt="Devotion Activity 3" class="gallery-thumb" data-gallery="devotion" data-index="2">
+                            <img src="Devotion Camacop/photo1716524236.jpeg" alt="Devotion Activity 5" class="gallery-thumb" data-gallery="devotion" data-index="4">
+                            <img src="Devotion Camacop/photo1716526351.jpeg" alt="Devotion Activity 6" class="gallery-thumb" data-gallery="devotion" data-index="5">
+                            <img src="Devotion Camacop/photo1716704694.jpeg" alt="Devotion Activity 7" class="gallery-thumb" data-gallery="devotion" data-index="6">
+                            <video src="Devotion Camacop/Screenrecording_20240524_130339.mp4" class="gallery-thumb" data-gallery="devotion" data-index="7" controls muted volume="0">
+                                <img src="Devotion Camacop/Devotion logo.png" alt="Screen Recording 1">
+                            </video>
+                            <video src="Devotion Camacop/Screenrecording_20240524_131751.mp4" class="gallery-thumb" data-gallery="devotion" data-index="8" controls muted volume="0">
+                                <img src="Devotion Camacop/Devotion logo.png" alt="Screen Recording 2">
+                            </video>
+                            <video src="Devotion Camacop/Screenrecording_20240524_131901.mp4" class="gallery-thumb" data-gallery="devotion" data-index="9" controls muted volume="0">
+                                <img src="Devotion Camacop/Devotion logo.png" alt="Screen Recording 3">
+                            </video>
+                            <video src="Devotion Camacop/Screenrecording_20240524_133231.mp4" class="gallery-thumb" data-gallery="devotion" data-index="10" controls muted volume="0">
+                                <img src="Devotion Camacop/Devotion logo.png" alt="Screen Recording 4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Devotion Camacop</h3>
+                        <p>A spiritual and community-focused project that brings together members for devotional activities, community service, and spiritual growth. The project includes various activities, events, and community engagement initiatives captured through photos and recordings.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Community Management</span>
+                            <span class="tech-tag">Event Documentation</span>
+                            <span class="tech-tag">Media Production</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>lycamarieantoque@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>0915-535-9502</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lapu-Lapu Extension, Digos City Davao del Sur</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/lyca04" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/lycamarieantoque" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://web.facebook.com/marie.antoque" target="_blank" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Lyca Antoque. All rights reserved.</p>
+                <p>Built with ❤️ and modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Modal -->
+    <div id="certificateModal" class="certificate-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Certificate</h3>
+                <button class="modal-close" id="modalClose">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Certificate" class="modal-image">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="modalDownload">
+                    <i class="fas fa-download"></i>
+                    Download Certificate
+                </button>
+                <button class="btn btn-primary" id="modalCloseBtn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="gallery-modal">
+        <div class="gallery-modal-content">
+            <span class="gallery-modal-close" id="galleryModalClose">&times;</span>
+            <div class="gallery-modal-nav gallery-modal-prev" id="galleryModalPrev">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <img id="galleryModalImage" src="" alt="Gallery Image" class="gallery-modal-image">
+            <div class="gallery-modal-nav gallery-modal-next" id="galleryModalNext">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
