@@ -1900,6 +1900,57 @@ section {
     min-height: 120px;
 }
 
+/* Documents Section */
+.documents {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 100%);
+}
+
+.documents-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.document-card {
+    background: white;
+    border-radius: 20px;
+    padding: 2.5rem;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.document-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 50px rgba(102, 126, 234, 0.2);
+    border-color: #667eea;
+}
+
+.document-icon {
+    font-size: 4rem;
+    color: #667eea;
+    margin-bottom: 1.5rem;
+}
+
+.document-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.document-card p {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.document-card .btn {
+    display: inline-block;
+}
+
 /* Footer */
 .footer {
     background: #333;
